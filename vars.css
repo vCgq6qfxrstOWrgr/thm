@@ -1,0 +1,42 @@
+:root {
+  /* theme color palette */
+  --rfe-primary: #111111;
+  --rfe-secondary: #0a0a0a;
+  --rfe-secondary-alpha: rgba(17, 17, 17, 0.9);
+  --rfe-tertiary: #0a0a0a;
+  --rfe-tertiary-alpha: rgba(10, 10, 10, 0.6);
+  --rfe-primary-light: #44475a;
+  --rfe-accent: #9b48ee;
+  --rfe-accent-alpha: rgba(88, 88, 88, 0.2);
+  --rfe-accent-alpha-alt: rgba(189, 147, 249, 0.35);
+  --rfe-accent-alpha-alt2: rgba(189, 147, 249, 0.5);
+  --rfe-accent-dark: #7b49c0;
+  --rfe-accent-light: #6518b3;
+
+  /* discord variables */
+  --background-primary: var(--rfe-primary);
+  --background-secondary: var(--rfe-secondary);
+  --background-secondary-alt: var(--rfe-secondary);
+  --background-tertiary: var(--rfe-secondary);
+  --background-accent: var(--rfe-accent);
+  --scrollbar-thumb: var(--rfe-primary-light);
+  --scrollbar-thin-thumb: var(--rfe-primary-light);
+  --scrollbar-auto-scrollbar-color-thumb: var(--rfe-primary-light);
+  --scrollbar-auto-track: var(--rfe-primary);
+  --scrollbar-auto-scrollbar-color-track: var(--rfe-primary);
+  --scrollbar-auto-thumb: var(--rfe-primary-light);
+  --text-link: var(--rfe-accent);
+  --focus-primary: var(--rfe-accent);
+  --background-modifier-accent: var(--rfe-tertiary);
+  --background-modifier-hover: var(--rfe-tertiary);
+  --background-modifier-active: var(--rfe-tertiary);
+  --header-primary: #ffffff;
+  --background-floating: var(--rfe-secondary);
+  --deprecated-text-input-border: var(--rfe-tertiary);
+  --deprecated-card-editable-bg: var(--rfe-secondary);
+  --deprecated-text-input-bg: var(--rfe-secondary);
+  --deprecated-text-input-border: var(--rfe-tertiary);
+
+  /* powercord */
+  --spotify-color: var(--rfe-accent) !important;
+}
