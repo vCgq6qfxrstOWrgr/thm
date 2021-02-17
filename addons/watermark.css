@@ -1,0 +1,39 @@
+/* watermark */
+@import url("https://aokiare.github.io/addons/DiscordFont.css"); /* Discord Font */
+
+.wordmark-2iDDfm svg {
+  width: 0px;
+}
+
+.wordmark-2iDDfm:after {
+  content: "Refúgio das E-Girls";
+  font-size: 14px;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #962dff;
+  background-clip: text;
+  font-weight: 700;
+  position: absolute;
+  padding-left: -3px !important;
+  top: 6px;
+  font-family: "Discord";
+
+  user-select: none;
+  color: white;
+  background: repeating-linear-gradient(-45deg, #AD1DEB 0%, #726CF8 7.14%, #6E72FC 14.28%,
+              #951deb 21.4%, #8e1deb 28.56%, #7d1deb 35.7%, #8637e1 42.84%, #6a37e1 50%);
+  background-size: 600vw 600vw;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: slide 10s linear infinite forwards;
+}
+
+@keyframes slide {
+  0%{
+    background-position-x: 0%;
+  }
+  100%{
+    background-position-x: 600vw;
+  }
+}

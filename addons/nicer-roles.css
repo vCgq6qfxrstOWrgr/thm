@@ -1,0 +1,41 @@
+.role-2irmRk {
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+.roleCircle-3xAZ1j::after {
+  content: "";
+  position: absolute;
+  height: 24px;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: inherit;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+/* .role-2irmRk.flex-1O1GKY:not(.addButton-pcyyf6):not(.actionButton-VzECiy) {
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  border: solid;
+  border-width: 0 0 0 2px;
+  border-radius: 3px;
+}
+.roleCircle-3xAZ1j.flex-1O1GKY {
+  height: 4px;
+  width: 4px;
+}
+.roleCircle-3xAZ1j.flex-1O1GKY:before {
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  background: inherit;
+  opacity: 0.15;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}  */
